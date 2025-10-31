@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHREXO | Movilidad Inteligente Jalisco 2026</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Imagen de fondo con transparencia */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://images.unsplash.com/photo-1605733160314-4e7a3b1d98a0?auto=format&fit=crop&w=1920&q=80');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.5; /* transparencia */
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body class="bg-emerald-900/80 text-white font-sans">
+  
+  <!-- Encabezado -->
+  <header class="text-center py-10 backdrop-blur-md bg-emerald-900/50 rounded-b-3xl shadow-lg">
+    <h1 class="text-5xl font-bold tracking-wide">SHREXO</h1>
+    <p class="text-lg mt-2">Sistema Híbrido de Rutas y Eco-xeniales Operativas</p>
+    <p class="text-sm mt-1 text-emerald-200">Movilidad inteligente rumbo al Mundial 2026</p>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="max-w-5xl mx-auto px-6 py-10 space-y-10 backdrop-blur-md bg-emerald-900/60 rounded-2xl shadow-xl">
+
+    <!-- Descripción -->
+    <section class="bg-white/10 p-6 rounded-2xl shadow-lg">
+      <h2 class="text-2xl font-semibold mb-3">¿Qué es SHREXO?</h2>
+      <p class="text-emerald-100 text-justify">
+        SHREXO es una aplicación de movilidad inteligente que conecta a residentes y turistas con el transporte más eficiente y sostenible durante el Mundial 2026 en Jalisco. 
+        Permite planificar rutas, pagar desde un mismo lugar, recibir alertas en tiempo real y conocer qué tan llenas están las unidades y paradas para viajar con comodidad.
+      </p>
+    </section>
+
+    <!-- Funciones -->
+    <section class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white/10 p-5 rounded-xl text-center hover:bg-white/20 transition">
+        <h3 class="text-xl font-bold mb-2">🚉 Rutas inteligentes</h3>
+        <p>Combina tren, autobús, bici o scooter en un solo trayecto optimizado.</p>
+      </div>
+      <div class="bg-white/10 p-5 rounded-xl text-center hover:bg-white/20 transition">
+        <h3 class="text-xl font-bold mb-2">💳 Pago unificado</h3>
+        <p>Usa una sola app para pagar cualquier tipo de transporte público.</p>
+      </div>
+      <div class="bg-white/10 p-5 rounded-xl text-center hover:bg-white/20 transition">
+        <h3 class="text-xl font-bold mb-2">🌱 Movilidad sostenible</h3>
+        <p>Elige opciones ecológicas e impulsa una ciudad más limpia y eficiente.</p>
+      </div>
+      <div class="bg-white/10 p-5 rounded-xl text-center hover:bg-white/20 transition md:col-span-3">
+        <h3 class="text-xl font-bold mb-2">🚌 Nivel de ocupación en tiempo real</h3>
+        <p>Consulta qué tan concurrido está cada transporte o parada antes de salir, 
+          gracias a sensores y reportes en tiempo real de los usuarios.</p>
+      </div>
+    </section>
+
+    <!-- Visualización -->
+    <section class="bg-white/10 p-6 rounded-2xl shadow-lg text-center">
+      <h2 class="text-2xl font-semibold mb-4">🔍 Ejemplo de visualización</h2>
+      <p class="text-emerald-100 mb-4">El mapa mostrará en colores el nivel de ocupación de cada ruta o parada.</p>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-green-500/80 p-4 rounded-xl font-semibold">🟢 Poco lleno</div>
+        <div class="bg-yellow-500/80 p-4 rounded-xl font-semibold">🟡 Moderado</div>
+        <div class="bg-red-500/80 p-4 rounded-xl font-semibold">🔴 Lleno</div>
+      </div>
+    </section>
+
+    <!-- Llamado a la acción -->
+    <section class="text-center py-10">
+      <h2 class="text-3xl font-semibold mb-3">¡Muévete con inteligencia!</h2>
+      <p class="mb-6">Con SHREXO, sabrás cuándo y cómo moverte mejor por Jalisco durante el Mundial 2026.</p>
+      <a href="#" class="bg-emerald-500 hover:bg-emerald-400 text-white px-6 py-3 rounded-full text-lg font-semibold transition">
+        Próximamente disponible
+      </a>
+    </section>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="text-center text-emerald-200 mt-10 py-5 border-t border-emerald-600 text-sm backdrop-blur-md bg-emerald-900/40">
+    © 2025 SHREXO · Proyecto de movilidad para el Mundial 2026 · Guadalajara, Jalisco
+  </footer>
+
+</body>
+</html>
